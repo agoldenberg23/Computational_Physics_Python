@@ -1,0 +1,46 @@
+// Use the notation "// " to ignore lines and add notes
+// Use '-' to represent a wall in start
+// In start, sorce and sink; only use positive values
+// Sorce will add and sink will subtract
+
+// Simulation name, from list
+randWalk
+
+// Output filename (include .txt at end)
+Output_Example.txt
+
+// Dementions (Row Collumb)
+6 6
+
+// The number of time steps, time steps between prints (0 = print every step)
+300 0
+
+// Start State
+0 0 - 0 0 0
+0 0 0 0 - 0
+0 - - 1 - 0
+0 0 - 0 0 0
+0 - 0 - 0 0
+0 0 0 0 0 0
+
+// Sorce
+// The time steps between enters (enter every step = 0)
+10
+// The sorce array
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 1 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+
+// Sink
+// The time steps between leaves (leave every step = 0)
+0
+// The sink array
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
