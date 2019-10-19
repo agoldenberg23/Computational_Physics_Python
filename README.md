@@ -19,5 +19,3 @@ HW 8 – Particle in a box energy levels approximation and projectile motion
 subject to a drag force
 
 Final Project – Stochastic Processes by Symmetric Simple Random Walks
-
-Final project partner: Kurt Strittmatter
